@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "question": "Was ist zu tun, wenn vor Antritt der Fahrt nicht feststeht, wer Schiffsführer ist?",
+    "image": null,
+    "answer": "Der verantwortliche Schiffsführer muss bestimmt werden.",
+    "options": [
+      "Der verantwortliche Schiffsführer muss gewählt werden.",
+      "Ein Inhaber eines Sportbootführerscheins muss die Fahrzeugführung übernehmen.",
+      "Ein Inhaber eines Sportbootführerscheins muss die Verantwortung übernehmen."
+    ]
+  },
+  {
+    "id": 2,
+    "question": "In welchen Fällen darf weder ein Sportboot geführt noch dessen Kurs oder Geschwindigkeit selbstständig bestimmt werden?",
+    "image": null,
+    "answer": "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,5 ‰ oder mehr im Körper vorhanden ist.",
+    "options": [
+      "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,8 ‰ oder mehr im Körper vorhanden ist.",
+      "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 1,0 ‰ oder mehr im Körper vorhanden ist.",
+      "Wenn man infolge körperlicher oder geistiger Mängel oder infolge des Genusses alkoholischer Getränke oder anderer berauschender Mittel in der sicheren Führung behindert ist oder wenn eine Blutalkoholkonzentration von 0,3 ‰ oder mehr im Körper vorhanden ist."
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wann ist ein Fahrzeug in Fahrt?",
+    "image": null,
+    "answer": "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch auf Grund sitzt.",
+    "options": [
+      "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch Fahrt über Grund macht.",
+      "Wenn es weder auf Grund sitzt noch vor Anker liegt noch manövrierbehindert oder manövrierunfähig ist.",
+      "Wenn es weder an Land festgemacht ist noch vor Anker liegt noch Fahrt durchs Wasser macht."
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Welche Bedeutung hat folgendes Tafelzeichen?",
+    "image": "./img/Verbotszeichen-A02.gif",
+    "answer": "Überholverbot.",
+    "options": [
+      "Begegnungsverbot.",
+      "Überholverbot für Fahrzeuge unter 20 m Länge.",
+      "Begegnungsverbot für Fahrzeuge über 20 m Länge."
+    ]
+  }
+]

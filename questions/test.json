@@ -1,0 +1,42 @@
+[
+  {
+    "ide": {
+      "ide": 1,
+      "questionType": 2
+    },
+    
+    "answers": [
+      "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und weniger als 20 m Länge, auf dem Rhein von mehr als 3,68 kW (5 PS) und weniger als 15 m Länge.\n\n",
+      "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und mehr als 15 m Länge.\n\n",
+      "Für Sportboote von mehr als 11,03 kW (15 PS) Nutzleistung und mehr als 20 m Länge, auf dem Rhein von mehr als 3,68 kW (5 PS) Nutzleistung und mehr als 15 m Länge.\n\n",
+      "Für Sportboote von weniger als 11,03 kW (15 PS) Nutzleistung und weniger als 15 m Länge.\n\n"
+    ],
+    "question": "73. Für welche Sportboote ist der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen vorgeschrieben?"
+  },
+  {
+    "ide": {
+      "ide": 2,
+      "questionType": 2
+    },
+    "answers": [
+      "Auf den Bundeswasserstraßen im Binnenbereich.\n\n",
+      "Auf allen Landesgewässern.\n\n",
+      "Auf den Bundeswasserstraßen und allen Landesgewässern.\n\n",
+      "Auf allen Seewasserstraßen.\n\n"
+    ],
+    "question": "74. Auf welchen Gewässern gilt der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen?"
+  },
+  {
+    "ide": {
+      "ide": 3,
+      "questionType": 2
+    },
+    "answers": [
+      "Bei fehlender Tauglichkeit oder fehlender Zuverlässigkeit.\n\n",
+      "Bei zweifelhafter Tauglichkeit wegen Alkoholmissbrauch.\n\n",
+      "Bei zweifelhafter Zuverlässigkeit aus Altersgründen.\n\n",
+      "Bei fehlender Zuverlässigkeit nach einer begangener Ordnungswidrigkeit.\n\n"
+    ],
+    "question": "75. Aus welchen Gründen muss der Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen entzogen werden?"
+  }
+]
