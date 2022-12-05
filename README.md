@@ -1,107 +1,46 @@
-<!-- <link rel="stylesheet" href="./markdown_files/markdown.css"> -->
-<link rel="stylesheet" href="./node_modules/github-markdown-css/github-markdown.css">  
-<!-- <link rel="stylesheet" href="./node_modules/github-markdown-css/github-markdown-dark.css">   -->
-<!-- <link rel="stylesheet" href="./node_modules/github-markdown-css/github-markdown-light.css">   -->
+# SBF Trainer
 
+![](https://img.shields.io/badge/Project_Status-Complete-green.svg) ![](https://img.shields.io/badge/Built_with-JavaScript-F0DB4F.svg)
 
-# Rock Paper Scissors Game
-> <r>Outline a brief description of your project:</r>  
-> One of my very first JavaScript projects is this Rock-Paper-Scissors Game.  
-> It's written in HTML, CSS and pure JavaScript.  
-> Whoever reaches 5 points first wins.  
-> I confess, most HTML and CSS is from [this great YouTube tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0). It covers a good looking user interface with scoreboard and the basic game. Thank you Tenzin!  
-> But all the JavaScript is on my own.  
-> There are some improvements to make, e.g. refactoring, but it works.  
-> Additionally, I brought in some features like:
-> - Extention to Lizzard-Spock
-> - Show explanation video from Sheldon
-> - Best of 5
-> - Set color for choosed buttons
-<!-- > Live demo [_here_](https://www.example.com). --> <!-- If you have the project hosted somewhere, include the link here. -->
+> Prüfungstrainer-App für den amtlichen Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen.  
+> Es werden
+> Basisfragen (Frage 1 bis Frage 72)  
+> Spezifische Fragen Binnen (Frage 73 bis Frage 253)  
+> Spezifische Fragen Segeln (Frage 254 bis Frage 300)
+
+![Example screenshot](./img/screenshot.PNG)
 
 ## Table of Contents
-- [Rock Paper Scissors Game](#rock-paper-scissors-game)
-  - [Table of Contents](#table-of-contents)
-  - [General Information](#general-information)
-  - [Technologies Used](#technologies-used)
-  - [Features](#features)
-  - [Screenshots](#screenshots)
-  - [Setup](#setup)
-  - [Usage](#usage)
-  - [Project Status](#project-status)
-  - [Room for Improvement](#room-for-improvement)
-  - [Acknowledgements](#acknowledgements)
-  - [Contact](#contact)
-<!-- * [License](#license) -->
 
+- [Technologies & Concepts](#technologies-concepts)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [JavaScript](#javascript)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Technologies & Concepts
 
+### HTML
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- link [Font Awesome](https://fontawesome.com/) stylesheet via [CDN](https://cdnjs.com/libraries/font-awesome)
 
+### CSS
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+### JavaScript
 
-## Screenshots
-![Example screenshot](#./img/readme.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
+#### fetch API
+```javascript
+fetch('./questions/test.json')
+  .then((res) => res.json())
+  .then((data) => console.log(data))
+  .catch((err) => {
+    // Do something for an error here
+  });
+```
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
 
 ## Contact
-Created by [@Thomas Ulrich](https://www.flynerd.pl/) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@Thomas Ulrich](https://github.com/TomUlrich) - feel free to contact me!
